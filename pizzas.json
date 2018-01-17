@@ -1,0 +1,40 @@
+{
+  "pizzas" : [
+    {
+        "id": 1,
+        "pizzaname": "Margherita",
+        "ingredients": "tomato sauce, mozzarella",
+        "price" : 250
+    },
+    {
+        "id": 2,
+        "pizzaname": "Funghi",
+        "ingredients": "tomato sauce, mozzarella, mushrooms",
+        "price" : 350
+    },
+    {
+        "id": 3,
+        "pizzaname": "Mexican Green Wave",
+        "ingredients": "crunchy onions, crispy capsicum, juicy tomato and jalapeno",
+        "price" : 370
+    },
+    {
+        "id": 4,
+        "pizzaname": "Peppy Paneer",
+        "ingredients": "Paneer, crispy capsicum, spicy red pepper",
+        "price" : 320
+    },
+    {
+        "id": 5,
+        "pizzaname": "Meatzaa Pizza",
+        "ingredients": "barbeque chicken, spicy chicken, crunchy onions",
+        "price" : 380
+    },
+    {
+        "id": 6,
+        "pizzaname": "Golden Chicken Delight",
+        "ingredients": "Barbeque chicken, golden corn",
+        "price" : 400
+    }
+  ]
+}

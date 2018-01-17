@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lakki+Reddy');
+@import url('https://fonts.googleapis.com/css?family=Tillana');
+
+.App {
+  text-align: center;
+  background-color: #f6eede;
+  font-family: 'Tillana', cursive;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #201010;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 4.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.pizza-img {
+  height: 250px;
+  width: 250px;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  margin: 10px;
+}
+
+.orderlist {
+  height: 40%;
+  margin-top: 100px;
+}
+
+.pizza-name {
+  height: 30%;
+  background-color: #ffc59c;
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+.pizza-ing {
+  height: 40%;
+  background-color: #ffd5b4;
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+.pizza-price {
+  height: 10%;
+  background-color: #ffd5b4;
+  padding: 10px;
+  margin: 0px 5px;
+}
+
+.add {
+  height: 20%;
+  background-color: #ffd5b4;
+  margin: 0px 5px;
+}
+
+button {
+  padding: 5px 30px;
+  background-color: #d5eeee;
+  border-radius: 30px;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+ul {
+  width: 75%;
+  padding-left: 0px;
+  border-radius: 20px;
+  border: 1px solid #201010;
+}
+
+.orders {
+  position: relative;
+  background-color: #f6eede;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.order-list {
+  position: relative;
+  width: 25%;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 20px;
+  border: 1px solid #201010;
+  background-color: #ffd5b4;
+  padding: 10px;
+}
+
+.fancy {
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 1.5em;
+}
